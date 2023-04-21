@@ -2,8 +2,9 @@
 {
     public class TipoTransporte
     {
-        public int TipoTransporteID { get; set; }
+        public int TipoTransporteId { get; set; }
         public string Descripcion { get; set; }
+
         public ICollection<Transporte> Transportes { get; set; }
     }
 }

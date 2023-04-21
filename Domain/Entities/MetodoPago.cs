@@ -2,8 +2,9 @@
 {
     public class MetodoPago
     {
-        public int MetodoPagoID { get; set; }
+        public int MetodoPagoId { get; set; }
         public string Descripcion { get; set; }
+
         public ICollection<Pago> Pagos { get; set; }
     }
 }

@@ -2,8 +2,12 @@
 {
     public class ViajeCiudad
     {
-        public int ViajeCiudadID { get; set; }
-        public Viaje Viajes { get; set; }
-        public Ciudad Ciudades { get; set; }
+        public int ViajeCiudadId { get; set; }
+
+        public int ViajeId { get; set; }
+        public Viaje Viaje { get; set; }
+
+        public int CiudadId { get; set; }
+        public Ciudad Ciudad { get; set; }
     }
 }

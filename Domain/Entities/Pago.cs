@@ -2,10 +2,14 @@
 {
     public class Pago
     {
-        public int PagoID { get; set; }
+        public int PagoId { get; set; }
         public DateTime Fecha { get; set; }
         public string Estado { get; set; }
-        public MetodoPago MetodosPago { get; set; }
-        public Factura Facturas { get; set; }
+
+        public int MetodoPagoId { get; set; }
+        public MetodoPago MetodoPago { get; set; }
+
+        public int FacturaId { get; set; }
+        public Factura Factura { get; set; }
     }
 }

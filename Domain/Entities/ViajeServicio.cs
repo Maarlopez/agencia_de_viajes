@@ -2,8 +2,12 @@
 {
     public class ViajeServicio
     {
-        public int ViajeServicioID { get; set; }
-        public Viaje Viajes { get; set; }
-        public Servicio Servicios { get; set; }
+        public int ViajeServicioId { get; set; }
+
+        public int ViajeId { get; set; }
+        public Viaje Viaje { get; set; }
+
+        public int ServicioId { get; set; }
+        public Servicio Servicio { get; set; }
     }
 }

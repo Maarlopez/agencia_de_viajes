@@ -2,9 +2,12 @@
 {
     public class Ciudad
     {
-        public int CiudadID { get; set; }
+        public int CiudadId { get; set; }
         public string Descripcion { get; set; }
-        public Provincia Provincias { get; set; }
+
+        public int ProvinciaId { get; set; }
+        public Provincia Provincia { get; set; }
+
         public ICollection<Escala> Escalas { get; set; }
     }
 }

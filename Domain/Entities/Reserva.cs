@@ -2,15 +2,22 @@
 {
     public class Reserva
     {
-        public int ReservaID { get; set; }
+        public int ReservaId { get; set; }
         public DateTime Fecha { get; set; }
         public string Estado { get; set; }
         public int Precio { get; set; }
         public int NumeroAsiento { get; set; }
         public string Clase { get; set; }
-        public Pasajero Pasajeros { get; set; }
-        public Usuario Usuarios { get; set; }
-        public Factura Facturas { get; set; }
+
+        public int PasajeroId { get; set; }
+        public Pasajero Pasajero { get; set; }
+
+        public int UsuarioId { get; set; }
+        public Usuario Usuario { get; set; }
+
+        public int FacturaId { get; set; }
+        public Factura Factura { get; set; }
+
         public ICollection<Pasaje> Pasajes { get; set; }
     }
 }

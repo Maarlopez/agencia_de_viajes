@@ -2,9 +2,10 @@
 {
     public class CompañiaTransporte
     {
-        public int CompañiaTransporteID { get; set; }
-        public int CUIT { get; set; }
+        public int CompañiaTransporteId { get; set; }
+        public int Cuit { get; set; }
         public string RazonSocial { get; set; }
+
         public ICollection<TipoTransporte> TipoTransportes { get; set; }
     }
 }
