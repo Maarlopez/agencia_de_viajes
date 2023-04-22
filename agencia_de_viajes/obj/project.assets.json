@@ -3737,19 +3737,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrador\\.nuget\\packages\\": {}
+    "C:\\Users\\Peceta\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\1_C_2023_UNI\\agencia_de_viajes\\agencia_de_viajes\\agencia_de_viajes.csproj",
+      "projectUniqueName": "C:\\Users\\Peceta\\OneDrive\\Desktop\\agencia_de_viajes\\agencia_de_viajes\\agencia_de_viajes.csproj",
       "projectName": "agencia_de_viajes",
-      "projectPath": "D:\\1_C_2023_UNI\\agencia_de_viajes\\agencia_de_viajes\\agencia_de_viajes.csproj",
-      "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-      "outputPath": "D:\\1_C_2023_UNI\\agencia_de_viajes\\agencia_de_viajes\\obj\\",
+      "projectPath": "C:\\Users\\Peceta\\OneDrive\\Desktop\\agencia_de_viajes\\agencia_de_viajes\\agencia_de_viajes.csproj",
+      "packagesPath": "C:\\Users\\Peceta\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Peceta\\OneDrive\\Desktop\\agencia_de_viajes\\agencia_de_viajes\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Peceta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3763,8 +3768,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\1_C_2023_UNI\\agencia_de_viajes\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "D:\\1_C_2023_UNI\\agencia_de_viajes\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\Peceta\\OneDrive\\Desktop\\agencia_de_viajes\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Peceta\\OneDrive\\Desktop\\agencia_de_viajes\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -3809,7 +3814,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

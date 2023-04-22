@@ -370,3 +370,13 @@ D:\1_C_2023_UNI\agencia_de_viajes\agencia_de_viajes\obj\Debug\net6.0\refint\agen
 D:\1_C_2023_UNI\agencia_de_viajes\agencia_de_viajes\obj\Debug\net6.0\agencia_de_viajes.pdb
 D:\1_C_2023_UNI\agencia_de_viajes\agencia_de_viajes\obj\Debug\net6.0\agencia_de_viajes.genruntimeconfig.cache
 D:\1_C_2023_UNI\agencia_de_viajes\agencia_de_viajes\obj\Debug\net6.0\ref\agencia_de_viajes.dll
+C:\Users\Peceta\OneDrive\Desktop\agencia_de_viajes\agencia_de_viajes\obj\Debug\net6.0\agencia_de_viajes.csproj.AssemblyReference.cache
+C:\Users\Peceta\OneDrive\Desktop\agencia_de_viajes\agencia_de_viajes\obj\Debug\net6.0\agencia_de_viajes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Peceta\OneDrive\Desktop\agencia_de_viajes\agencia_de_viajes\obj\Debug\net6.0\agencia_de_viajes.AssemblyInfoInputs.cache
+C:\Users\Peceta\OneDrive\Desktop\agencia_de_viajes\agencia_de_viajes\obj\Debug\net6.0\agencia_de_viajes.AssemblyInfo.cs
+C:\Users\Peceta\OneDrive\Desktop\agencia_de_viajes\agencia_de_viajes\obj\Debug\net6.0\agencia_de_viajes.csproj.CoreCompileInputs.cache
+C:\Users\Peceta\OneDrive\Desktop\agencia_de_viajes\agencia_de_viajes\obj\Debug\net6.0\agencia_de_viajes.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Peceta\OneDrive\Desktop\agencia_de_viajes\agencia_de_viajes\obj\Debug\net6.0\agencia_de_viajes.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Peceta\OneDrive\Desktop\agencia_de_viajes\agencia_de_viajes\obj\Debug\net6.0\agencia_de_viajes.dll
+C:\Users\Peceta\OneDrive\Desktop\agencia_de_viajes\agencia_de_viajes\obj\Debug\net6.0\refint\agencia_de_viajes.dll
+C:\Users\Peceta\OneDrive\Desktop\agencia_de_viajes\agencia_de_viajes\obj\Debug\net6.0\agencia_de_viajes.pdb

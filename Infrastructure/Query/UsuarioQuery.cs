@@ -13,13 +13,13 @@ namespace Infrastructure.Query
             _context = context;
         }
 
-        public Usuario getUsuarioById(int usuarioId)
+        public Usuario GetUsuarioById(int usuarioId)
         {
             var usuario = _context.Usuarios.Single(x => x.UsuarioId == usuarioId);
             return usuario;
         }
 
-        public List<Usuario> getUsuarioList()
+        public List<Usuario> GetUsuarioList()
         {
             List<Usuario> usuarioList = _context.Usuarios.ToList();
             return usuarioList;

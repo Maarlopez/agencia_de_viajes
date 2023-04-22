@@ -4,8 +4,8 @@ namespace Application.Interfaces
 {
     public interface IUsuarioQuery
     {
-        List<Usuario> getUsuarioList();
+        List<Usuario> GetUsuarioList();
 
-        Usuario getUsuarioById(int usuarioId);
+        Usuario GetUsuarioById(int usuarioId);
     }
 }

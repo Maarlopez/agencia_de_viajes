@@ -70,3 +70,11 @@ D:\1_C_2023_UNI\agencia_de_viajes\Infrastructure\obj\Debug\net6.0\refint\Infrast
 D:\1_C_2023_UNI\agencia_de_viajes\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
 D:\1_C_2023_UNI\agencia_de_viajes\Infrastructure\obj\Debug\net6.0\Infrastructure.genruntimeconfig.cache
 D:\1_C_2023_UNI\agencia_de_viajes\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
+C:\Users\Peceta\OneDrive\Desktop\agencia_de_viajes\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Peceta\OneDrive\Desktop\agencia_de_viajes\Infrastructure\obj\Debug\net6.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Peceta\OneDrive\Desktop\agencia_de_viajes\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Peceta\OneDrive\Desktop\agencia_de_viajes\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfo.cs
+C:\Users\Peceta\OneDrive\Desktop\agencia_de_viajes\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Peceta\OneDrive\Desktop\agencia_de_viajes\Infrastructure\obj\Debug\net6.0\Infrastructure.dll
+C:\Users\Peceta\OneDrive\Desktop\agencia_de_viajes\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll
+C:\Users\Peceta\OneDrive\Desktop\agencia_de_viajes\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb

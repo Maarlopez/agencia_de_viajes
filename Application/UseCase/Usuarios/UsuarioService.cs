@@ -33,12 +33,12 @@ namespace Application.UseCase.Usuarios
 
         public Usuario GetUsuarioById(int usuarioId)
         {
-            return _query.getUsuarioById(usuarioId);
+            return _query.GetUsuarioById(usuarioId);
         }
 
         public List<Usuario> GetUsuarioList()
         {
-            return _query.getUsuarioList();
+            return _query.GetUsuarioList();
         }
 
         public Usuario RemoveUsuario(int usuarioId)

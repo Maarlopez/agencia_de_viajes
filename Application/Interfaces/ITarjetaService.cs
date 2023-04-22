@@ -9,7 +9,7 @@ namespace Application.Interfaces
 {
     public interface ITarjetaService
     {
-        Tarjeta CreateTarjeta();
+        Tarjeta CreateTarjeta(int numeroTarjeta, string tipoTarjeta, DateTime vencimiento, string entidadTarjeta);
         Tarjeta RemoveTarjeta(int tarjetaId);
         Tarjeta UpdateTarjeta(int tarjetaId);
         List<Tarjeta> GetTarjetaList();
