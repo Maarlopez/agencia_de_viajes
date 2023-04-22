@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Query
+namespace Application.Interfaces
 {
-    internal class delete
+    public interface IUsuarioCommand
     {
     }
 }
