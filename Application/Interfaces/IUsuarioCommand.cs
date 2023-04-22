@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Domain.Entities;
 
 namespace Application.Interfaces
 {
     public interface IUsuarioCommand
     {
+        Usuario InsertUsuario(Usuario usuario);
+
+        Usuario RemoveUsuario(int usuarioId);
+
+        Usuario UpdateUsuario(int usuarioId);
+
     }
 }

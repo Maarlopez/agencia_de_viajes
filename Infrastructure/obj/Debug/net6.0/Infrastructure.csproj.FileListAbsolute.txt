@@ -51,3 +51,22 @@ C:\Users\solow\Desktop\Primer Cuatrimestre\Proyecto de Software N°1\Proyecto Gr
 C:\Users\solow\Desktop\Primer Cuatrimestre\Proyecto de Software N°1\Proyecto Grupal\agencia_de_viajes\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CopyComplete
 C:\Users\solow\Desktop\Primer Cuatrimestre\Proyecto de Software N°1\Proyecto Grupal\agencia_de_viajes\Infrastructure\obj\Debug\net6.0\Infrastructure.genruntimeconfig.cache
 C:\Users\solow\Desktop\Primer Cuatrimestre\Proyecto de Software N°1\Proyecto Grupal\agencia_de_viajes\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
+D:\1_C_2023_UNI\agencia_de_viajes\Infrastructure\bin\Debug\net6.0\Infrastructure.deps.json
+D:\1_C_2023_UNI\agencia_de_viajes\Infrastructure\bin\Debug\net6.0\Infrastructure.runtimeconfig.json
+D:\1_C_2023_UNI\agencia_de_viajes\Infrastructure\bin\Debug\net6.0\Infrastructure.dll
+D:\1_C_2023_UNI\agencia_de_viajes\Infrastructure\bin\Debug\net6.0\Infrastructure.pdb
+D:\1_C_2023_UNI\agencia_de_viajes\Infrastructure\bin\Debug\net6.0\Application.dll
+D:\1_C_2023_UNI\agencia_de_viajes\Infrastructure\bin\Debug\net6.0\Domain.dll
+D:\1_C_2023_UNI\agencia_de_viajes\Infrastructure\bin\Debug\net6.0\Application.pdb
+D:\1_C_2023_UNI\agencia_de_viajes\Infrastructure\bin\Debug\net6.0\Domain.pdb
+D:\1_C_2023_UNI\agencia_de_viajes\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.AssemblyReference.cache
+D:\1_C_2023_UNI\agencia_de_viajes\Infrastructure\obj\Debug\net6.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\1_C_2023_UNI\agencia_de_viajes\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfoInputs.cache
+D:\1_C_2023_UNI\agencia_de_viajes\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfo.cs
+D:\1_C_2023_UNI\agencia_de_viajes\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\1_C_2023_UNI\agencia_de_viajes\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CopyComplete
+D:\1_C_2023_UNI\agencia_de_viajes\Infrastructure\obj\Debug\net6.0\Infrastructure.dll
+D:\1_C_2023_UNI\agencia_de_viajes\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll
+D:\1_C_2023_UNI\agencia_de_viajes\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
+D:\1_C_2023_UNI\agencia_de_viajes\Infrastructure\obj\Debug\net6.0\Infrastructure.genruntimeconfig.cache
+D:\1_C_2023_UNI\agencia_de_viajes\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
