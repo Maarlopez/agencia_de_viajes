@@ -18,6 +18,9 @@
         public int FacturaId { get; set; }
         public Factura Factura { get; set; }
 
+        public int ViajeId { get; set; }
+        public Viaje Viaje { get; set; }
+
         public ICollection<Pasaje> Pasajes { get; set; }
     }
 }

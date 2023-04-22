@@ -7,12 +7,10 @@
         public int TipoTransporteId { get; set; }
         public TipoTransporte TipoTransporte { get; set; }
 
-        public int CompañiaTransporteId { get; set; }
-        public CompañiaTransporte CompañiaTransporte { get; set; }
+        public int CompaniaTransporteId { get; set; }
+        public CompaniaTransporte CompaniaTransporte { get; set; }
 
-        public int CaracteristicaTransporteId { get; set; }
-        public CaracteristicaTransporte CaracteristicaTransporte { get; set; }
-
+        public ICollection<CaracteristicaTransporte> CaracteristicasTransportes { get; set; }
         public ICollection<Viaje> Viajes { get; set; }
 
     }

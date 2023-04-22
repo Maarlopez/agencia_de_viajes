@@ -7,7 +7,8 @@
         public int PasajeroId { get; set; }
         public Pasajero Pasajero { get; set; }
 
-        public ICollection<Viaje> Viajes { get; set; }
+        public int ViajeId { get; set; }
+        public Viaje Viaje { get; set; }
 
     }
 }

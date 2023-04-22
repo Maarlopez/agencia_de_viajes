@@ -9,5 +9,6 @@
         public Provincia Provincia { get; set; }
 
         public ICollection<Escala> Escalas { get; set; }
+        public ICollection<ViajeCiudad> ViajeCiudades { get; set; }
     }
 }

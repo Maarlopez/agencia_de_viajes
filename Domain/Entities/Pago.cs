@@ -9,7 +9,6 @@
         public int MetodoPagoId { get; set; }
         public MetodoPago MetodoPago { get; set; }
 
-        public int FacturaId { get; set; }
         public Factura Factura { get; set; }
     }
 }
