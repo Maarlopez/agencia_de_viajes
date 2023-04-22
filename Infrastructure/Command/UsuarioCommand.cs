@@ -22,18 +22,18 @@ namespace Infrastructure.Command
 
         public Usuario RemoveUsuario(int usuarioId)
         {
-            var removeUsuarioId = _context.Usuarios.Single(x => x.UsuarioId == usuarioId);
-            _context.Remove(removeUsuarioId);
+            var removeUsuario = _context.Usuarios.Single(x => x.UsuarioId == usuarioId);
+            _context.Remove(removeUsuario);
             _context.SaveChanges();
-            return removeUsuarioId;
+            return removeUsuario;
         }
 
         public Usuario UpdateUsuario(int usuarioId)
         {
-            var updateUsuarioId = _context.Usuarios.Single(x => x.UsuarioId == usuarioId);
-            _context.Update(updateUsuarioId);
+            var updateUsuario = _context.Usuarios.Single(x => x.UsuarioId == usuarioId);
+            _context.Update(updateUsuario);
             _context.SaveChanges();
-            return updateUsuarioId;
+            return updateUsuario;
         }
     }
 }

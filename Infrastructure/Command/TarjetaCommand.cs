@@ -19,24 +19,27 @@ namespace Infrastructure.Command
         {
             _context = context;
         }
-        public void Delete(int tarjetaId)
+        public Tarjeta RemoveTarjeta(int tarjetaId)
         {
-            Tarjeta tarjeta = _context.Tarjetas.Find(tarjetaId);
-            _context.Remove(tarjeta);
+            var removeTarjeta = _context.Tarjetas.Single(x => x.TarjetaId == tarjetaId);
+            _context.Remove(removeTarjeta);
             _context.SaveChanges();
+            return removeTarjeta;
         }
 
-        public void Insert(Tarjeta tarjeta)
+        public Tarjeta InsertTarjeta(Tarjeta tarjeta)
         {
             _context.Add(tarjeta);
             _context.SaveChanges();
+            return tarjeta;
         }
 
-        public void Update(int tarjetaId)
+        public Tarjeta UpdateTarjeta(int tarjetaId)
         {
-            Tarjeta tarjeta = _context.Tarjetas.Find(tarjetaId);
-            _context.Entry(tarjeta).State = EntityState.Modified;
+            var updateTarjeta = _context.Tarjetas.Single(x => x.TarjetaId == tarjetaId);
+            _context.Update(updateTarjeta);
             _context.SaveChanges();
+            return updateTarjeta;
         }
     }
 }
