@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\agencia_de_viajes\\agencia_de_viajes.csproj": {}
+    "D:\\1_C_2023_UNI\\agencia_de_viajes\\agencia_de_viajes\\agencia_de_viajes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\agencia_de_viajes\\agencia_de_viajes.csproj": {
+    "D:\\1_C_2023_UNI\\agencia_de_viajes\\agencia_de_viajes\\agencia_de_viajes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\agencia_de_viajes\\agencia_de_viajes.csproj",
+        "projectUniqueName": "D:\\1_C_2023_UNI\\agencia_de_viajes\\agencia_de_viajes\\agencia_de_viajes.csproj",
         "projectName": "agencia_de_viajes",
-        "projectPath": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\agencia_de_viajes\\agencia_de_viajes.csproj",
-        "packagesPath": "C:\\Users\\solow\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\agencia_de_viajes\\obj\\",
+        "projectPath": "D:\\1_C_2023_UNI\\agencia_de_viajes\\agencia_de_viajes\\agencia_de_viajes.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "D:\\1_C_2023_UNI\\agencia_de_viajes\\agencia_de_viajes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\solow\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Infrastructure\\Infrastructure.csproj"
+              "D:\\1_C_2023_UNI\\agencia_de_viajes\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\1_C_2023_UNI\\agencia_de_viajes\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -74,21 +74,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Application\\Application.csproj": {
+    "D:\\1_C_2023_UNI\\agencia_de_viajes\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\1_C_2023_UNI\\agencia_de_viajes\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\solow\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Application\\obj\\",
+        "projectPath": "D:\\1_C_2023_UNI\\agencia_de_viajes\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "D:\\1_C_2023_UNI\\agencia_de_viajes\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\solow\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -102,8 +102,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Domain\\Domain.csproj"
+              "D:\\1_C_2023_UNI\\agencia_de_viajes\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\1_C_2023_UNI\\agencia_de_viajes\\Domain\\Domain.csproj"
               }
             }
           }
@@ -133,21 +133,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Domain\\Domain.csproj": {
+    "D:\\1_C_2023_UNI\\agencia_de_viajes\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\1_C_2023_UNI\\agencia_de_viajes\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\solow\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Domain\\obj\\",
+        "projectPath": "D:\\1_C_2023_UNI\\agencia_de_viajes\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "D:\\1_C_2023_UNI\\agencia_de_viajes\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\solow\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -188,21 +188,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\1_C_2023_UNI\\agencia_de_viajes\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\1_C_2023_UNI\\agencia_de_viajes\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\solow\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Infrastructure\\obj\\",
+        "projectPath": "D:\\1_C_2023_UNI\\agencia_de_viajes\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "D:\\1_C_2023_UNI\\agencia_de_viajes\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\solow\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -216,8 +216,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Application\\Application.csproj"
+              "D:\\1_C_2023_UNI\\agencia_de_viajes\\Application\\Application.csproj": {
+                "projectPath": "D:\\1_C_2023_UNI\\agencia_de_viajes\\Application\\Application.csproj"
               }
             }
           }
@@ -259,7 +259,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
