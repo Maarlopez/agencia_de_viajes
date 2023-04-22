@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Peceta\\OneDrive\\Desktop\\agencia_de_viajes\\agencia_de_viajes\\agencia_de_viajes.csproj": {}
+    "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\agencia_de_viajes\\agencia_de_viajes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Peceta\\OneDrive\\Desktop\\agencia_de_viajes\\agencia_de_viajes\\agencia_de_viajes.csproj": {
+    "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\agencia_de_viajes\\agencia_de_viajes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Peceta\\OneDrive\\Desktop\\agencia_de_viajes\\agencia_de_viajes\\agencia_de_viajes.csproj",
+        "projectUniqueName": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\agencia_de_viajes\\agencia_de_viajes.csproj",
         "projectName": "agencia_de_viajes",
-        "projectPath": "C:\\Users\\Peceta\\OneDrive\\Desktop\\agencia_de_viajes\\agencia_de_viajes\\agencia_de_viajes.csproj",
-        "packagesPath": "C:\\Users\\Peceta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Peceta\\OneDrive\\Desktop\\agencia_de_viajes\\agencia_de_viajes\\obj\\",
+        "projectPath": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\agencia_de_viajes\\agencia_de_viajes.csproj",
+        "packagesPath": "C:\\Users\\solow\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\agencia_de_viajes\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Peceta\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\solow\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Peceta\\OneDrive\\Desktop\\agencia_de_viajes\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Peceta\\OneDrive\\Desktop\\agencia_de_viajes\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -78,25 +74,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Peceta\\OneDrive\\Desktop\\agencia_de_viajes\\Application\\Application.csproj": {
+    "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Peceta\\OneDrive\\Desktop\\agencia_de_viajes\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Peceta\\OneDrive\\Desktop\\agencia_de_viajes\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Peceta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Peceta\\OneDrive\\Desktop\\agencia_de_viajes\\Application\\obj\\",
+        "projectPath": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\solow\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Peceta\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\solow\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -110,8 +102,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Peceta\\OneDrive\\Desktop\\agencia_de_viajes\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Peceta\\OneDrive\\Desktop\\agencia_de_viajes\\Domain\\Domain.csproj"
+              "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Domain\\Domain.csproj"
               }
             }
           }
@@ -141,25 +133,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Peceta\\OneDrive\\Desktop\\agencia_de_viajes\\Domain\\Domain.csproj": {
+    "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Peceta\\OneDrive\\Desktop\\agencia_de_viajes\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Peceta\\OneDrive\\Desktop\\agencia_de_viajes\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Peceta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Peceta\\OneDrive\\Desktop\\agencia_de_viajes\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\solow\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Peceta\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\solow\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -200,25 +188,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Peceta\\OneDrive\\Desktop\\agencia_de_viajes\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Peceta\\OneDrive\\Desktop\\agencia_de_viajes\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Peceta\\OneDrive\\Desktop\\agencia_de_viajes\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Peceta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Peceta\\OneDrive\\Desktop\\agencia_de_viajes\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\solow\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Peceta\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\solow\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -232,8 +216,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Peceta\\OneDrive\\Desktop\\agencia_de_viajes\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Peceta\\OneDrive\\Desktop\\agencia_de_viajes\\Application\\Application.csproj"
+              "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Application\\Application.csproj"
               }
             }
           }
@@ -275,7 +259,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

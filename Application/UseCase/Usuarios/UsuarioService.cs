@@ -1,5 +1,8 @@
 ﻿using Application.Interfaces;
+using Application.Request;
+using Application.Response;
 using Domain.Entities;
+using System.Runtime.CompilerServices;
 
 namespace Application.UseCase.Usuarios
 {
@@ -14,21 +17,26 @@ namespace Application.UseCase.Usuarios
             _query = query;
         }
 
-        public Usuario CreateUsuario(string nombre, string apellido, int dni, DateTime fechaNac, string email, string nacionalidad, int telefono, string domicilio)
+        public UsuarioResponse CreateUsuario(UsuarioRequest request)
         {
             var usuario = new Usuario
             {
-                Nombre = nombre,
-                Apellido = apellido,
-                Email = email,
-                Domicilio = domicilio,
-                FechaNac = fechaNac,
-                Nacionalidad = nacionalidad,
-                Telefono = telefono,
-                Dni = dni
+                Nombre = request.Nombre,
+                Apellido = request.Apellido,
+                Email = request.Email,
+                Domicilio = request.Domicilio,
+                FechaNac = request.FechaNac,
+                Nacionalidad = request.Nacionalidad,
+                Telefono = request.Telefono,
+                Dni = request.Dni
             };
-
-           return _command.InsertUsuario(usuario);
+            _command.InsertUsuario(usuario);
+            return new UsuarioResponse
+            {
+                Nombre = usuario.Nombre,
+                Apellido = usuario.Apellido,
+                Dni = usuario.Dni
+            };
         }
 
         public Usuario GetUsuarioById(int usuarioId)
@@ -41,9 +49,16 @@ namespace Application.UseCase.Usuarios
             return _query.GetUsuarioList();
         }
 
-        public Usuario RemoveUsuario(int usuarioId)
+        public UsuarioResponse RemoveUsuario(int usuarioId)
         {
-            return _command.RemoveUsuario(usuarioId);
+            var usuario = _command.RemoveUsuario(usuarioId);
+
+            return new UsuarioResponse
+            {
+                Nombre = usuario.Nombre,
+                Apellido = usuario.Apellido,
+                Dni = usuario.Dni
+            };
         }
 
         public Usuario UpdateUsuario(int usuarioId)

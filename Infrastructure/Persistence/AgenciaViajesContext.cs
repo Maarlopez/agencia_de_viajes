@@ -1,11 +1,6 @@
 ﻿using Domain.Entities;
 using Infrastructure.Config;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Infrastructure.Persistence
 {
@@ -49,7 +44,7 @@ namespace Infrastructure.Persistence
 
         public DbSet<CompaniaTransporte> CompaniaTransportes { get; set; }
 
-        public DbSet<Ciudad> Ciudades  { get; set; }
+        public DbSet<Ciudad> Ciudades { get; set; }
 
         public DbSet<CaracteristicaTransporte> CaracteristicaTransportes { get; set; }
 
