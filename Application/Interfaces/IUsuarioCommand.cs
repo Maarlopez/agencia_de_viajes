@@ -1,4 +1,5 @@
-﻿using Domain.Entities;
+﻿using Application.Request;
+using Domain.Entities;
 
 namespace Application.Interfaces
 {
@@ -8,7 +9,7 @@ namespace Application.Interfaces
 
         Usuario RemoveUsuario(int usuarioId);
 
-        Usuario UpdateUsuario(int usuarioId);
+        Usuario UpdateUsuario(int usuarioId, UsuarioRequest request);
 
     }
 }

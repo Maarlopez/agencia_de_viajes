@@ -8,8 +8,8 @@ namespace Application.Interfaces
     {
         UsuarioResponse CreateUsuario(UsuarioRequest request);
         UsuarioResponse RemoveUsuario(int usuarioId);
-        Usuario UpdateUsuario(int usuarioId);
+        UsuarioResponse UpdateUsuario(int usuarioId, UsuarioRequest request);
         List<Usuario> GetUsuarioList();
-        Usuario GetUsuarioById(int usuarioId);
+        UsuarioResponse GetUsuarioById(int usuarioId);
     }
 }

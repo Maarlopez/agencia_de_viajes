@@ -2,7 +2,6 @@
 using Application.Request;
 using Application.Response;
 using Domain.Entities;
-using System.Runtime.CompilerServices;
 
 namespace Application.UseCase.Usuarios
 {
@@ -39,9 +38,21 @@ namespace Application.UseCase.Usuarios
             };
         }
 
-        public Usuario GetUsuarioById(int usuarioId)
+        public UsuarioResponse GetUsuarioById(int usuarioId)
         {
-            return _query.GetUsuarioById(usuarioId);
+            var usuario = _query.GetUsuarioById(usuarioId);
+
+            if (usuario != null)
+            {
+                return new UsuarioResponse
+                {
+                    Nombre = usuario.Nombre,
+                    Apellido = usuario.Apellido,
+                    Dni = usuario.Dni
+                };
+            }
+            return null;
+
         }
 
         public List<Usuario> GetUsuarioList()
@@ -61,9 +72,16 @@ namespace Application.UseCase.Usuarios
             };
         }
 
-        public Usuario UpdateUsuario(int usuarioId)
+        public UsuarioResponse UpdateUsuario(int usuarioId, UsuarioRequest request)
         {
-            return _command.UpdateUsuario(usuarioId);
+            var usuario = _command.UpdateUsuario(usuarioId, request);
+
+            return new UsuarioResponse
+            {
+                Nombre = usuario.Nombre,
+                Dni = usuario.Dni,
+                Apellido = usuario.Apellido,
+            };
         }
     }
 }

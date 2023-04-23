@@ -1,6 +1,5 @@
 ﻿using Application.Interfaces;
 using Application.Request;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace agencia_de_viajes.Controllers
@@ -16,10 +15,16 @@ namespace agencia_de_viajes.Controllers
             _usuarioService = usuarioService;
         }
 
-        [HttpGet]
-        public IActionResult GetUsuarioById(int id)
+        [HttpGet("{usuarioId}")]
+        public IActionResult GetUsuarioById(int usuarioId)
         {
-            var result = _usuarioService.GetUsuarioById(id);
+            var result = _usuarioService.GetUsuarioById(usuarioId);
+
+            if (result == null)
+            {
+                return NotFound(new { message = "No se encontraron Usuarios" });
+            }
+
             return new JsonResult(result);
         }
 
@@ -30,12 +35,18 @@ namespace agencia_de_viajes.Controllers
             return new JsonResult(result);
         }
 
-        [HttpDelete]
-        public IActionResult DeleteUsuario(int id)
+        [HttpPut]
+        public IActionResult UpdateUsuario(int usuarioId, UsuarioRequest request)
         {
-            var result = _usuarioService.RemoveUsuario(id);
+            var result = _usuarioService.UpdateUsuario(usuarioId, request);
             return new JsonResult(result);
         }
 
+        [HttpDelete("{usuarioId}")]
+        public IActionResult DeleteUsuario(int usuarioId)
+        {
+            var result = _usuarioService.RemoveUsuario(usuarioId);
+            return new JsonResult(result);
+        }
     }
 }

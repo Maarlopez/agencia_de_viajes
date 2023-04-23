@@ -15,7 +15,7 @@ namespace Infrastructure.Query
 
         public Usuario GetUsuarioById(int usuarioId)
         {
-            var usuario = _context.Usuarios.Single(x => x.UsuarioId == usuarioId);
+            var usuario = _context.Usuarios.FirstOrDefault(x => x.UsuarioId == usuarioId);
             return usuario;
         }
 
