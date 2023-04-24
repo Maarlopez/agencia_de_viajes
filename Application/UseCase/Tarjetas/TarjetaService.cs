@@ -84,10 +84,16 @@ namespace Application.UseCase.Tarjetas
                 TarjetaId = tarjeta.TarjetaId,
                 NumeroTarjeta = tarjeta.NumeroTarjeta,
                 EntidadTarjeta = tarjeta.EntidadTarjeta
+                
+                //UsuarioId = tarjeta.UsuarioId,
+                //Usuario = new UsuarioResponse
+                //{
+                //    Nombre = tarjeta.Usuario.Nombre,
+                //    Apellido = tarjeta.Usuario.Apellido,
+                //    Dni = tarjeta.Usuario.Dni
+                //}
             };
-
         }
-
         public TarjetaResponse UpdateTarjeta(int tarjetaId, TarjetaRequest request)
         {
             var tarjeta = _command.UpdateTarjeta(tarjetaId, request);
@@ -104,7 +110,6 @@ namespace Application.UseCase.Tarjetas
                     Dni = tarjeta.Usuario.Dni
                 }
             };
-
         }
     }
 }

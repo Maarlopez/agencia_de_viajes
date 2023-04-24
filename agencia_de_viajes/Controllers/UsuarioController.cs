@@ -35,7 +35,7 @@ namespace agencia_de_viajes.Controllers
             return new JsonResult(result);
         }
 
-        [HttpPut]
+        [HttpPut("{usuarioId}")]
         public IActionResult UpdateUsuario(int usuarioId, UsuarioRequest request)
         {
             var result = _usuarioService.UpdateUsuario(usuarioId, request);

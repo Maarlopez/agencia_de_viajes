@@ -42,7 +42,7 @@ namespace agencia_de_viajes.Controllers
             return new JsonResult(result);
         }
 
-        [HttpPut]
+        [HttpPut("{tarjetaId}")]
         public IActionResult UpdateTarjeta(int tarjetaId, TarjetaRequest request)
         {
             var result = _tarjetaService.UpdateTarjeta(tarjetaId, request);

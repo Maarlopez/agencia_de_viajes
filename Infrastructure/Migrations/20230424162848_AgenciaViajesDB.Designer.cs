@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastructure.Migrations
 {
     [DbContext(typeof(AgenciaViajesContext))]
-    [Migration("20230424004114_fiumba")]
-    partial class fiumba
+    [Migration("20230424162848_AgenciaViajesDB")]
+    partial class AgenciaViajesDB
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
