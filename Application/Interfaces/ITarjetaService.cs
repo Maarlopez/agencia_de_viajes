@@ -1,13 +1,15 @@
-﻿using Domain.Entities;
+﻿using Application.Request;
+using Application.Response;
+using Domain.Entities;
 
 namespace Application.Interfaces
 {
     public interface ITarjetaService
     {
-        Tarjeta CreateTarjeta(int numeroTarjeta, string tipoTarjeta, DateTime vencimiento, string entidadTarjeta);
-        Tarjeta RemoveTarjeta(int tarjetaId);
-        Tarjeta UpdateTarjeta(int tarjetaId);
+        TarjetaResponse CreateTarjeta(TarjetaRequest tarjeta);
+        TarjetaResponse RemoveTarjeta(int tarjetaId);
+        TarjetaResponse UpdateTarjeta(int tarjetaId, TarjetaRequest tarjeta);
         List<Tarjeta> GetTarjetaList();
-        Tarjeta GetTarjetaById(int tarjetaId);
+        TarjetaResponse GetTarjetaById(int tarjetaId);
     }
 }

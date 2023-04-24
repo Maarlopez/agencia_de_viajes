@@ -1,4 +1,6 @@
 ﻿using Application.Interfaces;
+using Application.Request;
+using Application.Response;
 using Domain.Entities;
 
 namespace Application.UseCase.Tarjetas
@@ -14,23 +16,35 @@ namespace Application.UseCase.Tarjetas
             _query = query;
         }
 
-        public Tarjeta CreateTarjeta(int numeroTarjeta, string tipoTarjeta, DateTime vencimiento, string entidadTarjeta)
+        public TarjetaResponse CreateTarjeta(TarjetaRequest request)
         {
-
             var tarjeta = new Tarjeta
             {
-                NumeroTarjeta = numeroTarjeta,
-                TipoTarjeta = tipoTarjeta,
-                Vencimiento = vencimiento,
-                EntidadTarjeta = entidadTarjeta
+                NumeroTarjeta = request.NumeroTarjeta,
+                TipoTarjeta = request.TipoTarjeta,
+                Vencimiento = request.Vencimiento,
+                EntidadTarjeta = request.EntidadTarjeta,
+                UsuarioId = request.usuarioId
             };
-
-            return _command.InsertTarjeta(tarjeta);
+            _command.InsertTarjeta(tarjeta);
+            return new TarjetaResponse
+            {
+                TarjetaId = tarjeta.TarjetaId,
+                NumeroTarjeta = tarjeta.NumeroTarjeta,
+                EntidadTarjeta = tarjeta.EntidadTarjeta,
+                UsuarioId = tarjeta.UsuarioId
+            };
         }
 
-        public Tarjeta GetTarjetaById(int tarjetaId)
+        public TarjetaResponse GetTarjetaById(int tarjetaId)
         {
-            return _query.GetTarjetaById(tarjetaId);
+            var tarjeta = _query.GetTarjetaById(tarjetaId);
+            return new TarjetaResponse
+            {
+                TarjetaId = tarjeta.TarjetaId,
+                NumeroTarjeta = tarjeta.TarjetaId,
+                EntidadTarjeta = tarjeta.EntidadTarjeta
+            };
         }
 
         public List<Tarjeta> GetTarjetaList()
@@ -38,14 +52,73 @@ namespace Application.UseCase.Tarjetas
             return _query.GetTarjetaList();
         }
 
-        public Tarjeta RemoveTarjeta(int tarjetaId)
+        public TarjetaResponse RemoveTarjeta(int tarjetaId)
         {
-            return _command.RemoveTarjeta(tarjetaId);
+            var tarjeta = _command.RemoveTarjeta(tarjetaId);
+
+            return new TarjetaResponse
+            {
+                TarjetaId = tarjeta.TarjetaId,
+                NumeroTarjeta = tarjeta.NumeroTarjeta,
+                EntidadTarjeta = tarjeta.EntidadTarjeta
+            };
         }
 
-        public Tarjeta UpdateTarjeta(int tarjetaId)
+        public TarjetaResponse UpdateTarjeta(int tarjetaId, TarjetaRequest request)
         {
-            return _command.UpdateTarjeta(tarjetaId);
+            var tarjeta = _command.UpdateTarjeta(tarjetaId, request);
+            return new TarjetaResponse
+            {
+                TarjetaId = tarjeta.TarjetaId,
+                NumeroTarjeta = tarjeta.NumeroTarjeta,
+                EntidadTarjeta = tarjeta.EntidadTarjeta
+            };
+
         }
+
     }
 }
+
+
+//private readonly ITarjetaCommand _command;
+//private readonly ITarjetaQuery _query;
+
+//public TarjetaService(ITarjetaCommand command, ITarjetaQuery query)
+//{
+//    _command = command;
+//    _query = query;
+//}
+
+//public Tarjeta CreateTarjeta(int numeroTarjeta, string tipoTarjeta, DateTime vencimiento, string entidadTarjeta)
+//{
+
+//    var tarjeta = new Tarjeta
+//    {
+//        NumeroTarjeta = numeroTarjeta,
+//        TipoTarjeta = tipoTarjeta,
+//        Vencimiento = vencimiento,
+//        EntidadTarjeta = entidadTarjeta
+//    };
+
+//    return _command.InsertTarjeta(tarjeta);
+//}
+
+//public Tarjeta GetTarjetaById(int tarjetaId)
+//{
+//    return _query.GetTarjetaById(tarjetaId);
+//}
+
+//public List<Tarjeta> GetTarjetaList()
+//{
+//    return _query.GetTarjetaList();
+//}
+
+//public Tarjeta RemoveTarjeta(int tarjetaId)
+//{
+//    return _command.RemoveTarjeta(tarjetaId);
+//}
+
+//public Tarjeta UpdateTarjeta(int tarjetaId)
+//{
+//    return _command.UpdateTarjeta(tarjetaId);
+//}
