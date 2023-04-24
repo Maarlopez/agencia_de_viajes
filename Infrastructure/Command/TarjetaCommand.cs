@@ -2,6 +2,7 @@
 using Application.Request;
 using Domain.Entities;
 using Infrastructure.Persistence;
+using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Command
 {
@@ -31,7 +32,8 @@ namespace Infrastructure.Command
         public Tarjeta UpdateTarjeta(int tarjetaId, TarjetaRequest request)
         {
             var updateTarjeta = _context.Tarjetas
-            .FirstOrDefault(x => x.TarjetaId == tarjetaId);
+                .Include(x => x.Usuario)
+                .FirstOrDefault(x => x.TarjetaId == tarjetaId);
 
             updateTarjeta.TipoTarjeta = request.TipoTarjeta;
             updateTarjeta.EntidadTarjeta = request.EntidadTarjeta;
@@ -46,25 +48,3 @@ namespace Infrastructure.Command
     }
 }
 
-//public Tarjeta RemoveTarjeta(int tarjetaId)
-//{
-//    var removeTarjeta = _context.Tarjetas.Single(x => x.TarjetaId == tarjetaId);
-//    _context.Remove(removeTarjeta);
-//    _context.SaveChanges();
-//    return removeTarjeta;
-//}
-
-//public Tarjeta InsertTarjeta(Tarjeta tarjeta)
-//{
-//    _context.Add(tarjeta);
-//    _context.SaveChanges();
-//    return tarjeta;
-//}
-
-//public Tarjeta UpdateTarjeta(int tarjetaId)
-//{
-//    var updateTarjeta = _context.Tarjetas.Single(x => x.TarjetaId == tarjetaId);
-//    _context.Update(updateTarjeta);
-//    _context.SaveChanges();
-//    return updateTarjeta;
-//}

@@ -1,6 +1,7 @@
 ﻿using Application.Interfaces;
 using Domain.Entities;
 using Infrastructure.Persistence;
+using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Query
 {
@@ -14,7 +15,10 @@ namespace Infrastructure.Query
         }
         public Tarjeta GetTarjetaById(int tarjetaId)
         {
-            var tarjeta = _context.Tarjetas.Single(fe => fe.TarjetaId == tarjetaId);
+            var tarjeta = _context.Tarjetas
+                .Include(p => p.Usuario)
+                .FirstOrDefault(x => x.TarjetaId == tarjetaId);
+
             return tarjeta;
         }
 

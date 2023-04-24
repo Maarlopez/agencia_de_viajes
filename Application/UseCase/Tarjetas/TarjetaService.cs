@@ -50,12 +50,24 @@ namespace Application.UseCase.Tarjetas
         public TarjetaResponse GetTarjetaById(int tarjetaId)
         {
             var tarjeta = _query.GetTarjetaById(tarjetaId);
-            return new TarjetaResponse
+
+            if (tarjeta != null)
             {
-                TarjetaId = tarjeta.TarjetaId,
-                NumeroTarjeta = tarjeta.TarjetaId,
-                EntidadTarjeta = tarjeta.EntidadTarjeta
-            };
+                return new TarjetaResponse
+                {
+                    TarjetaId = tarjeta.TarjetaId,
+                    NumeroTarjeta = tarjeta.TarjetaId,
+                    EntidadTarjeta = tarjeta.EntidadTarjeta,
+                    UsuarioId = tarjeta.UsuarioId,
+                    Usuario = new UsuarioResponse
+                    {
+                        Nombre = tarjeta.Usuario.Nombre,
+                        Apellido = tarjeta.Usuario.Apellido,
+                        Dni = tarjeta.Usuario.Dni
+                    }
+                };
+            }
+            return null;
         }
 
         public List<Tarjeta> GetTarjetaList()
@@ -73,6 +85,7 @@ namespace Application.UseCase.Tarjetas
                 NumeroTarjeta = tarjeta.NumeroTarjeta,
                 EntidadTarjeta = tarjeta.EntidadTarjeta
             };
+
         }
 
         public TarjetaResponse UpdateTarjeta(int tarjetaId, TarjetaRequest request)
@@ -82,7 +95,14 @@ namespace Application.UseCase.Tarjetas
             {
                 TarjetaId = tarjeta.TarjetaId,
                 NumeroTarjeta = tarjeta.NumeroTarjeta,
-                EntidadTarjeta = tarjeta.EntidadTarjeta
+                EntidadTarjeta = tarjeta.EntidadTarjeta,
+                UsuarioId = tarjeta.UsuarioId,
+                Usuario = new UsuarioResponse
+                {
+                    Nombre = tarjeta.Usuario.Nombre,
+                    Apellido = tarjeta.Usuario.Apellido,
+                    Dni = tarjeta.Usuario.Dni
+                }
             };
 
         }

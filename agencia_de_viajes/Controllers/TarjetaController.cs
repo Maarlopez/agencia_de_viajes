@@ -21,5 +21,32 @@ namespace agencia_de_viajes.Controllers
             var result = _tarjetaService.CreateTarjeta(request);
             return new JsonResult(result);
         }
+
+        [HttpGet("{tarjetaId}")]
+        public IActionResult GetTarjetaById(int tarjetaId)
+        {
+            var result = _tarjetaService.GetTarjetaById(tarjetaId);
+
+            if (result == null)
+            {
+                return NotFound(new { message = "No se encontraron tarjetas" });
+            }
+
+            return new JsonResult(result);
+        }
+
+        [HttpDelete("{tarjetaId}")]
+        public IActionResult DeleteTarjeta(int tarjetaId)
+        {
+            var result = _tarjetaService.RemoveTarjeta(tarjetaId);
+            return new JsonResult(result);
+        }
+
+        [HttpPut]
+        public IActionResult UpdateTarjeta(int tarjetaId, TarjetaRequest request)
+        {
+            var result = _tarjetaService.UpdateTarjeta(tarjetaId, request);
+            return new JsonResult(result);
+        }
     }
 }
