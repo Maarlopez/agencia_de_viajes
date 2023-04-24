@@ -16,9 +16,13 @@ namespace Infrastructure.Command
         }
         public Tarjeta RemoveTarjeta(int tarjetaId)
         {
-            var removeTarjeta = _context.Tarjetas.Single(x => x.TarjetaId == tarjetaId);
+            var removeTarjeta = _context.Tarjetas
+            .Include(x => x.Usuario)
+            .FirstOrDefault(x => x.TarjetaId == tarjetaId);
+
             _context.Remove(removeTarjeta);
             _context.SaveChanges();
+
             return removeTarjeta;
         }
 

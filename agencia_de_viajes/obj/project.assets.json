@@ -3737,19 +3737,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\maria\\.nuget\\packages\\": {}
+    "C:\\Users\\solow\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maria\\Desktop\\agencia_de_viajes\\agencia_de_viajes\\agencia_de_viajes.csproj",
+      "projectUniqueName": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\agencia_de_viajes\\agencia_de_viajes.csproj",
       "projectName": "agencia_de_viajes",
-      "projectPath": "C:\\Users\\maria\\Desktop\\agencia_de_viajes\\agencia_de_viajes\\agencia_de_viajes.csproj",
-      "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maria\\Desktop\\agencia_de_viajes\\agencia_de_viajes\\obj\\",
+      "projectPath": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\agencia_de_viajes\\agencia_de_viajes.csproj",
+      "packagesPath": "C:\\Users\\solow\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\agencia_de_viajes\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\solow\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3763,8 +3763,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\maria\\Desktop\\agencia_de_viajes\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\maria\\Desktop\\agencia_de_viajes\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\solow\\Desktop\\Primer Cuatrimestre\\Proyecto de Software N°1\\Proyecto Grupal\\agencia_de_viajes\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -3809,7 +3809,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

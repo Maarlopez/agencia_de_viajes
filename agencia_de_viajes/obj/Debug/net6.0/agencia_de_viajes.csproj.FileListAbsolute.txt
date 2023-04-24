@@ -194,7 +194,6 @@ C:\Users\solow\Desktop\Primer Cuatrimestre\Proyecto de Software N°1\Proyecto Gr
 C:\Users\solow\Desktop\Primer Cuatrimestre\Proyecto de Software N°1\Proyecto Grupal\agencia_de_viajes\agencia_de_viajes\obj\Debug\net6.0\agencia_de_viajes.dll
 C:\Users\solow\Desktop\Primer Cuatrimestre\Proyecto de Software N°1\Proyecto Grupal\agencia_de_viajes\agencia_de_viajes\obj\Debug\net6.0\refint\agencia_de_viajes.dll
 C:\Users\solow\Desktop\Primer Cuatrimestre\Proyecto de Software N°1\Proyecto Grupal\agencia_de_viajes\agencia_de_viajes\obj\Debug\net6.0\agencia_de_viajes.pdb
-C:\Users\solow\Desktop\Primer Cuatrimestre\Proyecto de Software N°1\Proyecto Grupal\agencia_de_viajes\agencia_de_viajes\bin\Debug\net6.0\appsettings.json
 C:\Users\solow\Desktop\Primer Cuatrimestre\Proyecto de Software N°1\Proyecto Grupal\agencia_de_viajes\agencia_de_viajes\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\solow\Desktop\Primer Cuatrimestre\Proyecto de Software N°1\Proyecto Grupal\agencia_de_viajes\agencia_de_viajes\bin\Debug\net6.0\agencia_de_viajes.exe
 C:\Users\solow\Desktop\Primer Cuatrimestre\Proyecto de Software N°1\Proyecto Grupal\agencia_de_viajes\agencia_de_viajes\bin\Debug\net6.0\agencia_de_viajes.deps.json
