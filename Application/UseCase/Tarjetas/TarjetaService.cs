@@ -9,11 +9,13 @@ namespace Application.UseCase.Tarjetas
     {
         private readonly ITarjetaCommand _command;
         private readonly ITarjetaQuery _query;
+        private readonly IUsuarioQuery _usuarioQuery;
 
-        public TarjetaService(ITarjetaCommand command, ITarjetaQuery query)
+        public TarjetaService(ITarjetaCommand command, ITarjetaQuery query, IUsuarioQuery usuarioQuery)
         {
             _command = command;
             _query = query;
+            _usuarioQuery = usuarioQuery;
         }
 
         public TarjetaResponse CreateTarjeta(TarjetaRequest request)
@@ -24,15 +26,24 @@ namespace Application.UseCase.Tarjetas
                 TipoTarjeta = request.TipoTarjeta,
                 Vencimiento = request.Vencimiento,
                 EntidadTarjeta = request.EntidadTarjeta,
-                UsuarioId = request.usuarioId
+                UsuarioId = request.usuarioId,
+                Usuario = _usuarioQuery.GetUsuarioById(request.usuarioId)
+
             };
+
             _command.InsertTarjeta(tarjeta);
             return new TarjetaResponse
             {
                 TarjetaId = tarjeta.TarjetaId,
                 NumeroTarjeta = tarjeta.NumeroTarjeta,
                 EntidadTarjeta = tarjeta.EntidadTarjeta,
-                UsuarioId = tarjeta.UsuarioId
+                UsuarioId = tarjeta.UsuarioId,
+                Usuario = new UsuarioResponse
+                {
+                    Nombre = _usuarioQuery.GetUsuarioById(request.usuarioId).Nombre,
+                    Apellido = _usuarioQuery.GetUsuarioById(request.usuarioId).Apellido,
+                    Dni = _usuarioQuery.GetUsuarioById(request.usuarioId).Dni,
+                }
             };
         }
 
@@ -75,50 +86,5 @@ namespace Application.UseCase.Tarjetas
             };
 
         }
-
     }
 }
-
-
-//private readonly ITarjetaCommand _command;
-//private readonly ITarjetaQuery _query;
-
-//public TarjetaService(ITarjetaCommand command, ITarjetaQuery query)
-//{
-//    _command = command;
-//    _query = query;
-//}
-
-//public Tarjeta CreateTarjeta(int numeroTarjeta, string tipoTarjeta, DateTime vencimiento, string entidadTarjeta)
-//{
-
-//    var tarjeta = new Tarjeta
-//    {
-//        NumeroTarjeta = numeroTarjeta,
-//        TipoTarjeta = tipoTarjeta,
-//        Vencimiento = vencimiento,
-//        EntidadTarjeta = entidadTarjeta
-//    };
-
-//    return _command.InsertTarjeta(tarjeta);
-//}
-
-//public Tarjeta GetTarjetaById(int tarjetaId)
-//{
-//    return _query.GetTarjetaById(tarjetaId);
-//}
-
-//public List<Tarjeta> GetTarjetaList()
-//{
-//    return _query.GetTarjetaList();
-//}
-
-//public Tarjeta RemoveTarjeta(int tarjetaId)
-//{
-//    return _command.RemoveTarjeta(tarjetaId);
-//}
-
-//public Tarjeta UpdateTarjeta(int tarjetaId)
-//{
-//    return _command.UpdateTarjeta(tarjetaId);
-//}
